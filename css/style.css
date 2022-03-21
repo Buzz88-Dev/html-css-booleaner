@@ -19,7 +19,7 @@ main {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .titolo p {
@@ -42,7 +42,6 @@ h1 {
 
 .immagini p {
     font-size: 0.7em;
-    color: grey;
 }
 
 .lorem {
@@ -86,3 +85,22 @@ footer div {
     margin-bottom: 7px;
 }
 
+footer p {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.sfondo1 {
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.sfondo2 {
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+}
