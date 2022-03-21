@@ -1,7 +1,72 @@
-header {
-    background-color: green;
+* {
+    margin: 0;
 }
 
-span {
+header {
+    background-image: url(../img/pattern.png);
+    padding-top: 80px;
+    background-color: lightskyblue;
+}
+
+.logo {
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    margin: 7px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.titolo p {
+    color: grey;
+}
+
+.par {
+    font-size: 22px;
+}
+
+.titolo span {
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+.immagini {
+    margin-top: 20px;
+}
+
+.immagini p {
+    font-size: 0.7em;
+    color: grey;
+}
+
+.lorem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lorem span {
     background-color: yellow;
 }
+
+.tabella thead {
+    background-color: blue;
+    color: white;
+}
+
+.azzurrino {
+    background-color: aqua;
+}
+
+
+
+
+
+footer {
+    margin: 7px;
+}
+
