@@ -15,7 +15,7 @@ header {
 }
 
 main {
-    margin: 7px;
+    margin-left: 7px;
 }
 
 h1 {
@@ -54,18 +54,24 @@ h1 {
     background-color: yellow;
 }
 
+ul {
+    padding:15px;
+}
+
 
 .tabella {
     margin-top:30px;
 }
 
-th{
-    padding-right: 150px;
-}
 
 .tabella thead {
     background-color: rgb(76, 160, 216);
     color: white;
+    text-align: left;
+}
+
+.grandezza {
+    width: 300px;
 }
 
 .azzurrino {
