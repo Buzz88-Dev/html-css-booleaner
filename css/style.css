@@ -5,7 +5,7 @@
 header {
     background-image: url(../img/pattern.png);
     padding-top: 80px;
-    background-color: lightskyblue;
+    background-color: rgb(41, 159, 233);
 }
 
 .logo {
@@ -27,11 +27,12 @@ h1 {
 }
 
 .par {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .titolo span {
-    color: lightskyblue;
+    color: rgb(41, 159, 233);
     font-weight: bold;
 }
 
@@ -53,8 +54,17 @@ h1 {
     background-color: yellow;
 }
 
+
+.tabella {
+    margin-top:30px;
+}
+
+th{
+    padding-right: 150px;
+}
+
 .tabella thead {
-    background-color: blue;
+    background-color: rgb(76, 160, 216);
     color: white;
 }
 
@@ -63,10 +73,16 @@ h1 {
 }
 
 
-
-
-
 footer {
     margin: 7px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+footer div {
+    margin-bottom: 7px;
 }
 
